@@ -167,7 +167,7 @@ function drawCards() {
         <div class="card__back">
           <img
             class="back__img"
-            src="https://res.cloudinary.com/henryzarza/image/upload/v1601745355/General%20assets/thought_pr1pzv.png"
+            src="images/thought_pr1pzv.png"
             alt="Thought"
           />
         </div>
