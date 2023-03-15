@@ -73,7 +73,7 @@ const modalTitle = document.querySelector('#modal-title');
 const modal = document.querySelector('#modal');
 let currentCards = [...CARDS, ...CARDS];
 let isPaused = false;
-let counter = CARDS.length + 10;
+let counter = CARDS.length + 15;
 let isLose = false;
 
 // Fisher--Yates Algorithm -- https://bost.ocks.org/mike/shuffle/
