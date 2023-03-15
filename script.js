@@ -140,10 +140,15 @@ function handleClick(e) {
       }
 
       // Validate is already win
-      const isWin = cardContainer.querySelectorAll('card--guessed').length === currentCards.length;
+      /*const isWin = cardContainer.querySelectorAll('card--guessed').length === currentCards.length;
       if (isWin) {
           win();
-      }
+      }*/
+      const isWin = cardContainer.querySelectorAll('.card--guessed').length === currentCards.length;
+if (isWin || guessesLeft === 0) {
+    win();
+}
+
   }
 }
 
