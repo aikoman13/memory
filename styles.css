@@ -59,7 +59,7 @@ body {
 
 .title {
   color: var(--white-smoke);
-  font-family: "Cormorant Infant", serif;
+  font-family:"Raleway";
   font-size: 3rem;
   font-weight: 600;
   line-height: 1.2;
@@ -79,7 +79,7 @@ body {
 }
 
 .subtitle {
-  color: var(--dark-gray);
+  color: var(--white-smoke);
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.2;
