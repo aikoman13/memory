@@ -73,7 +73,7 @@ const modalTitle = document.querySelector('#modal-title');
 const modal = document.querySelector('#modal');
 let currentCards = [...CARDS, ...CARDS];
 let isPaused = false;
-let counter = CARDS.length + 15;
+let counter = CARDS.length + 10;
 let isLose = false;
 
 // Fisher--Yates Algorithm -- https://bost.ocks.org/mike/shuffle/
@@ -186,7 +186,7 @@ document.querySelector('#play-again').addEventListener('click', function () {
   modal.classList.remove('modal--open');
   isPaused = false;
   isLose = false;
-  counter = CARDS.length + 15;
+  counter = CARDS.length + 10;
   drawCards();
 });
 
