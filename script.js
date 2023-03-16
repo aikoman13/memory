@@ -1,70 +1,70 @@
 const CARDS = [
   {
       id: 1,
-      name: 'javascript',
-      img: '1.png'
+      name: 'Lama',
+      img: 'images/1.png'
   },
   {
       id: 2,
-      name: 'css3',
-      img: '2.png'
+      name: 'Genea Pig',
+      img: 'images/2.png'
   },
   {
       id: 3,
-      name: 'html5',
-      img: '3.png'
+      name: 'Dog',
+      img: 'images/3.png'
   },
   {
       id: 4,
-      name: 'safari',
-      img:
-          '4.png'
+      name: 'Horse',
+      img:'images/4.png'
+          
   },
   {
       id: 5,
-      name: 'rails',
-      img: '5.png'
+      name: 'Goat',
+      img: 'images/5.png'
   },
   {
       id: 6,
-      name: 'node',
-      img: '6.png'
+      name: 'Fox',
+      img: 'images/6.png'
   },
   {
       id: 7,
-      name: 'react',
-      img:
-          '7.png'
+      name: 'Mouse',
+      img:'images/7.png'
+          
   },
   {
       id: 8,
-      name: 'angular',
-      img:
-          '8.png'
+      name: 'Bear',
+      img:'images/8.png'
+          
   },
   {
       id: 9,
-      name: 'vuejs',
-      img:
-          '9.png'
+      name: 'Cat',
+      img:'images/9.png'
+          
   },
   {
       id: 10,
-      name: 'svelte',
-      img:
-          '10.png'
+      name: 'Monkey',
+      img:'images/10.png'
+          
   },
   {
       id: 11,
-      name: 'chrome',
-      img:
-          '11.png'
+      name: 'Genea Pig 2',
+      img:'images/11.png'
+          
   },
   {
       id: 12,
-      name: 'mozilla',
-      img:
-          '12.png'
+      name: 'Ant eater',
+      img:'images/12.png'
+          
   }
 ];
 const cardContainer = document.querySelector('.card-container');
