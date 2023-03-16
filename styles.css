@@ -24,7 +24,7 @@ body {
   padding: 1rem;
   background-image: url("images/f882a897-2e74-4311-8bad-d226f971c30b-standard-scale-2_00x.png");
   background-attachment: fixed;
-  background-position: center bottom;
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -52,13 +52,13 @@ body {
   color: black;
 }
 .content {
-  margin: auto;
+  margin: 50px auto;
   max-width: 85rem;
   width: 100%;
 }
 
 .title {
-  color: var(--dark-gray);
+  color: var(--white-smoke);
   font-family: "Cormorant Infant", serif;
   font-size: 3rem;
   font-weight: 600;
