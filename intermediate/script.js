@@ -2,68 +2,68 @@ const CARDS = [
   {
       id: 1,
       name: 'Lama',
-      img: 'images/1.png'
+      img: '../images/1.png'
   },
   {
       id: 2,
       name: 'Genea Pig',
-      img: 'images/2.png'
+      img: '../images/2.png'
   },
   {
       id: 3,
       name: 'Dog',
-      img: 'images/3.png'
+      img: '../images/3.png'
   },
   {
       id: 4,
       name: 'Horse',
-      img:'images/4.png'
+      img:'../images/4.png'
           
   },
   {
       id: 5,
       name: 'Goat',
-      img: 'images/5.png'
+      img: '../images/5.png'
   },
   {
       id: 6,
       name: 'Fox',
-      img: 'images/6.png'
+      img: '../images/6.png'
   },
   {
       id: 7,
       name: 'Mouse',
-      img:'images/7.png'
+      img:'../images/7.png'
           
   },
   {
       id: 8,
       name: 'Bear',
-      img:'images/8.png'
+      img:'../images/8.png'
           
   },
   {
       id: 9,
       name: 'Cat',
-      img:'images/9.png'
+      img:'../images/9.png'
           
   },
   {
       id: 10,
       name: 'Monkey',
-      img:'images/10.png'
+      img:'../images/10.png'
           
   },
   {
       id: 11,
       name: 'Genea Pig 2',
-      img:'images/11.png'
+      img:'../images/11.png'
           
   },
   {
       id: 12,
       name: 'Ant eater',
-      img:'images/12.png'
+      img:'../images/12.png'
           
   }
 ];
@@ -172,7 +172,7 @@ function drawCards() {
         <div class="card__back">
           <img
             class="back__img"
-            src="images/thought_pr1pzv.png"
+            src="../images/thought_pr1pzv.png"
             alt="Thought"
           />
         </div>
