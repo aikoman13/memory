@@ -30,42 +30,7 @@ const CARDS = [
       name: 'Fox',
       img: '../images/6.png'
   },
-  {
-      id: 7,
-      name: 'Mouse',
-      img:'../images/7.png'
-          
-  },
-  {
-      id: 8,
-      name: 'Bear',
-      img:'../images/8.png'
-          
-  },
-  {
-      id: 9,
-      name: 'Cat',
-      img:'../images/9.png'
-          
-  },
-  {
-      id: 10,
-      name: 'Monkey',
-      img:'../images/10.png'
-          
-  },
-  {
-      id: 11,
-      name: 'Genea Pig 2',
-      img:'../images/11.png'
-          
-  },
-  {
-      id: 12,
-      name: 'Ant eater',
-      img:'../images/12.png'
-          
-  }
+  
 ];
 const cardContainer = document.querySelector('.card-container');
 const available = document.querySelector('#available');
@@ -73,7 +38,7 @@ const modalTitle = document.querySelector('#modal-title');
 const modal = document.querySelector('#modal');
 let currentCards = [...CARDS, ...CARDS];
 let isPaused = false;
-let counter = CARDS.length + 10;
+let counter = CARDS.length + 5;
 let isLose = false;
 
 // Fisher--Yates Algorithm -- https://bost.ocks.org/mike/shuffle/
@@ -186,7 +151,7 @@ document.querySelector('#play-again').addEventListener('click', function () {
   modal.classList.remove('modal--open');
   isPaused = false;
   isLose = false;
-  counter = CARDS.length + 10;
+  counter = CARDS.length + 5;
   drawCards();
 });
 

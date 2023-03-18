@@ -20,9 +20,9 @@
 }
 
 body {
-  background-color: var(--purple);
+  background-color: var(--white-smoke);
   padding: 1rem;
-  background-image: url("images/f882a897-2e74-4311-8bad-d226f971c30b-standard-scale-2_00x.png");
+  background-image: url("beginner-bg.png");
   background-attachment: fixed;
   background-position: center top;
   background-repeat: no-repeat;
@@ -58,7 +58,7 @@ body {
 }
 
 .title {
-  color: var(--white-smoke);
+  color: var(--dark-gray);
   font-family:"Raleway";
   font-size: 3rem;
   font-weight: 600;
@@ -79,7 +79,7 @@ body {
 }
 
 .subtitle {
-  color: var(--white-smoke);
+  color: var(--dark-gray);
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.2;
@@ -100,7 +100,7 @@ body {
 .card-container {
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
 }
 
 .card {
@@ -108,7 +108,7 @@ body {
   border: 0.2rem solid var(--dark-gray);
   border-radius: 0.25rem;
   cursor: pointer;
-  height: 12rem;
+  height: 25rem;
   position: relative;
   transform-style: preserve-3d;
   transition: transform 500ms ease-in-out;
@@ -152,11 +152,11 @@ body {
 
 .front__img {
   margin-bottom: 0.5rem;
-  width: 7rem;
+  width: 15rem;
 }
 
 .back__img {
-  width: 6rem;
+  width: 15rem;
 }
 
 .card__name {
